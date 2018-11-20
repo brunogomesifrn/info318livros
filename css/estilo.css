@@ -1,9 +1,12 @@
-.lateral{
-padding:60px;
-overflow: visible;
-height:100%;
-width:100%; 
-position:fixed;
-left:-50px;	
-	
+imagem{
+height: 100%;
+width: 100px
+}
+p{
+text-align: center;
+font-family: times new roman;
+font-size: 20
+}
+h3{
+text-align: center
 }
