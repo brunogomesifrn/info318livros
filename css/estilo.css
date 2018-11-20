@@ -2,11 +2,18 @@ imagem{
 height: 100%;
 width: 100px
 }
-p{
+.hyper{
+
+border-bottom: solid black 1px;
+margin-bottom: 10px;
+padding-top: 10px;
+padding-bottom: 10px
+}
+p, autor{
 text-align: center;
 font-family: times new roman;
 font-size: 20
 }
-h3{
+h1, h3{
 text-align: center
 }
