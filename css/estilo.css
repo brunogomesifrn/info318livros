@@ -17,3 +17,18 @@ font-size: 20
 h1, h3{
 text-align: center
 }
+h4
+{
+ font-family: times new roman;
+ font-size: 75;
+ text-align: center;
+}
+.botao
+{
+	text-align: center
+
+}
+.mudar
+{
+text-align:  right;
+}
