@@ -12,7 +12,9 @@ padding-bottom: 10px
 p, autor{
 text-align: center;
 font-family: times new roman;
-font-size: 20
+font-size: 20;
+margin: 15px;
+
 }
 h1, h3{
 text-align: center
@@ -26,9 +28,17 @@ h4
 .botao
 {
 	text-align: center
-
 }
 .mudar
 {
 text-align:  right;
+}
+.edicao{
+text-align: Justify;
+font-size: 15px;
+font-family: Times new roman;
+margin: 0px 0px 0px 100px;
+}
+.img-left{
+	float:left;
 }
