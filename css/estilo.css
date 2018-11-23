@@ -1,20 +1,35 @@
+body{
+background-color: #a6a6ef
+}
+
 imagem{
 height: 100%;
 width: 100px
 }
+.info{
+text-align: center;
+font-family: times new roman;
+font-size: 30;
+color: white	
+}
 .hyper{
-
 border-bottom: solid black 1px;
 margin-bottom: 10px;
 padding-top: 10px;
-padding-bottom: 10px
+padding-bottom: 10px;
+background-color: #f0e5fc
+}
+.col-xl-12, .col-xl-3 {
+padding: 0;
 }
 p, autor{
 text-align: center;
 font-family: times new roman;
-font-size: 20;
+font-size: 30;
 margin: 15px;
-
+}
+.list{
+color:white;	
 }
 h1, h3{
 text-align: center
@@ -27,7 +42,10 @@ h4
 }
 .botao
 {
-	text-align: center
+text-align: center;
+}
+.cad{
+font-weight: bold;
 }
 .mudar
 {
@@ -38,6 +56,7 @@ text-align: Justify;
 font-size: 15px;
 font-family: Times new roman;
 margin: 0px 0px 0px 100px;
+font-weight: bold;
 }
 .img-left{
 	float:left;
