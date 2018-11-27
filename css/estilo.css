@@ -1,10 +1,8 @@
 body{
-background-color: #a6a6ef
+	background-color: #D8bfd8;
 }
-
-imagem{
-height: 100%;
-width: 100px
+.imagem{
+width: 80%;
 }
 .info{
 text-align: center;
@@ -53,11 +51,22 @@ text-align:  right;
 }
 .edicao{
 text-align: Justify;
-font-size: 15px;
+font-size: 17px;
 font-family: Times new roman;
 margin: 0px 0px 0px 100px;
 font-weight: bold;
 }
 .img-left{
 	float:left;
+}
+.cont{
+text-align: justify;
+font-family: times new roman;
+font-size: 25px;
+font-weight: bold;
+}
+.rodape{
+color: white;
+text-align: center;
+font-size: 20px
 }

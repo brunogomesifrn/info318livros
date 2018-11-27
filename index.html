@@ -1,137 +1,158 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Projeto Final: Troca de livros Web </title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title> Projeto Final: Troca de livros Web </title>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
-integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
-integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+	integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
-<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
 	
 </head>
 
 <body>
 
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-xl-3">
-<div class="bg-dark">
-<img class="imagem img-fluid rounded-circle" src="imagens/LOGO.jpg" alt="Logo BookWeb"  width="100%" /> 
-<br/><br/>
-<form class="form-inline my-2 my-lg-0">
-<input class="form-control mr-sm-2" type="search" placeholder="Livros, Gêneros, Autores..." aria-label="Search">
-<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-</form>
-</br>
-<p class="info"> Gêneros Disponíveis </p>
-<ul class="list">
-<li> Romance </li>
-<li> Aventura </li>
-<li> Fantasia</li>
-<li> Ficção </li>
-<li> Drama </li>
-<li> Conto </li>
-<li> Poesia </li>
-</br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
-</ul>
-</div>
-</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xl-3 bg-dark">
+				<div>
+					<p class="c2"><img class="imagem img-fluid rounded-circle" src="imagens/LOGO.jpg" alt="Logo BookWeb"  width="100%" /></p> 
+					<br/><br/>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Livros, Gêneros, Autores..." aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+					</form>  
+					
+				</br>
+				<p class="info"> Gêneros Disponíveis </p>
+				<ul class="list">
+					<li> Romance </li>
+					<li> Aventura </li>
+					<li> Fantasia</li>
+					<li> Ficção </li>
+					<li> Drama </li>
+					<li> Conto </li>
+					<li> Poesia </li>
+				</ul>
+				<p class="info"> Autores Populares </p>
+				<ul class="list">
+					<li> Kiera Cass</li>
+					<li> JK. Rowling </li>
+					<li> Victoria Aveyard</li>
+					<li> Carina Rissi </li>
+					<li> Veronica Roth </li>
+					<li> John Green </li>
+					<li> Machado de Assis </li>
+				</ul>
+			</br> </br> </br> </br> </br> </br> </br> </br> </br> </br> 
+		</div>
+	</div>
 
-<div class="col-xl-9">
-	<div class="row">
-		<div class="col-xl-12">
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="login.html">Login</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
+	<div class="col-xl-9">
+		<div class="row">
+			<div class="col-xl-12">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<a class="navbar-brand" href="login.html">Login</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-			<li class="nav-item">
-			<a class="nav-link disabled" href="#"> Sugestões </a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link disabled" href="#"> Reclamações </a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link disabled" href="#"> Nossa Equipe</a>
-			</li>
-			</ul>
-			</div>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#"> Sugestões </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#"> Reclamações </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#"> Nossa Equipe</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		</div>
 	</div>
 	
 	<div class="row">
-	<div class="col-12 hyper"> 
-	<h1> Livros Hyper da Semana </h1> 
-	</div>
+		<div class="col-12 hyper"> 
+			<h1> Livros Hyper da Semana </h1> 
+		</div>
 	</div>
 	
+	<div class="row">
+		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
+			
+			<p>
+				<a href= "livro1.html" > <img src="imagens/selecao.jpg" class="img-fluid img-thumbnail" alt="A Seleção" height="350px" width="250px" > </a>
+				<h3 class="livros"> A seleção </h3>
+				<p class="autor"> Kiera Cass</p>
+			</p>
+		</div>
+
+		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
+			<p>
+				<a href= "livro2.html" > <img src="imagens/pedra.jpg" class="img-fluid img-thumbnail" alt="Harry Potter e a Pedra Filosofal" height="350 px" width="250px"> </a>
+				<h3 class="livros"> Harry Potter e a Pedra Filosofal </h3>
+				<p class="autor"> J.K Rowling </p>
+			</p>
+		</div>
+
+		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
+			<p>
+				<a href= "livro3.html" > <img src="imagens/ressignificados.jpg" class="img-fluid img-thumbnail" alt="O livro dos Ressignificados" height="350 px" width="250px"> </a>
+				<h3 class="livro"> O livro dos Ressignificados </h3>
+				<p class="autor"> João Doederlim </p>
+			</p>
+		</div>
+
+		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
+			<p>
+				<a href= "livro4.html" > <img src="imagens/anne.jpg" class="img-fluid img-thumbnail" alt="O Diário de Anne Frank" height="350 px" width="250px"> </a>
+				<h3 class="livros"> O Diário de Anne Frank</h3>
+				<p class="autor"> Anne Frank </p>
+			</p>
+		</div>
+
+		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
+			<p>
+				<a href= "livro5.html" > <img src="imagens/tempestadegerra.jpg" class="img-fluid img-thumbnail" alt="Tempestade de Guerra" height="350 px" width="250px"> </a>
+				<h3 class="livro"> Tempestade de Guerra </h3>
+				<p class="autor"> Victoria Aveyard </p>
+			</p>
+		</div>
+
+		<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
+			<p>
+				<a href= "livro6.html" > <img src="imagens/will.jpg" class="img-fluid img-thumbnail" alt="Will e Will" height="350 px" width="250px"> </a>
+				<h3 class="livro"> Will & Will </h3>
+				<p class="autor"> J. Green e D. Levithan </p>
+			</p>
+		</div>
+	</div>
+</div>
+
+</div>
+</div>
+
+<div>
+<div class="container-fluid"> 
 <div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
-<p>
-<a href= "livro1.html" > <img src="imagens/selecao.jpg" class="img-fluid img-thumbnail" alt="A Seleção" height="350px" width="250px" > </a>
-<h3 class="livros"> A seleção </h3>
-<p class="autor"> Kiera Cass</p>
-</p>
+<div class="col-12 bg-dark"> <h4 class="rodape"> "  O livro fala e a alma responde." </h4> </div>
 </div>
-
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
-<p>
-<a href= "livro2.html" > <img src="imagens/pedra.jpg" class="img-fluid img-thumbnail" alt="Harry Potter e a Pedra Filosofal" height="350 px" width="250px"> </a>
-<h3 class="livros"> Harry Potter e a Pedra Filosofal </h3>
-<p class="autor"> J.K Rowling </p>
-</p>
-</div>
-
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
-<p>
-<a href= "livro3.html" > <img src="imagens/ressignificados.jpg" class="img-fluid img-thumbnail" alt="O livro dos Ressignificados" height="350 px" width="250px"> </a>
-<h3 class="livro"> O livro dos Ressignificados </h3>
-<p class="autor"> João Doederlim </p>
-</p>
-</div>
-
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
-<p>
-<a href= "livro4.html" > <img src="imagens/anne.jpg" class="img-fluid img-thumbnail" alt="O Diário de Anne Frank" height="350 px" width="250px"> </a>
-<h3 class="livros"> O Diário de Anne Frank</h3>
-<p class="autor"> Anne Frank </p>
-</p>
-</div>
-
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
-<p>
-<a href= "livro5.html" > <img src="imagens/tempestadegerra.jpg" class="img-fluid img-thumbnail" alt="Tempestade de Guerra" height="350 px" width="250px"> </a>
-<h3 class="livro"> Tempestade de Guerra </h3>
-<p class="autor"> Victoria Aveyard </p>
-</p>
-</div>
-
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
-<p>
-<a href= "livro6.html" > <img src="imagens/will.jpg" class="img-fluid img-thumbnail" alt="Will e Will" height="350 px" width="250px"> </a>
-<h3 class="livro"> Will & Will </h3>
-<p class="autor"> J. Green e D. Levithan </p>
-</p>
-</div>
-
-</div>
-</div>
-
 </div>
 </div>
 </body>
