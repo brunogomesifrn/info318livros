@@ -23,7 +23,7 @@ padding: 0;
 p, autor{
 text-align: center;
 font-family: times new roman;
-font-size: 30;
+font-size: 25px; !important;
 margin: 15px;
 }
 .list{
@@ -65,7 +65,6 @@ text-align: justify;
 font-family: times new roman;
 font-size: 25px;
 font-weight: bold;
-
 }
 .rodape{
 color: white;
